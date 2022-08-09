@@ -21,6 +21,14 @@
     margin: 0.5em 0;
 }
 
+.card {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em 1em;
+}
+
 .card__descrição {
     display: flex;
     justify-content: space-between;
@@ -42,13 +50,6 @@
     display: flex;
 }
 
-.card {
-    background: var(--branco);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    margin: 1em;
-    padding: 1em 1em;
-}
 
 .descrição__titulo {
     color: var(--laranja);
@@ -76,12 +77,86 @@
 }
 
 .botões__ancora {
-    
     font-weight: 700;
     text-decoration: none;
     background-color: var(--laranja);
     color: var(--branco);
-    
     padding: 1em 2.25em
+}
+
+.carrossel__titulo-2 {
+    background-color: var(--branco);
+    color: var(--laranja);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.swiper-slide-2 img {
+    width: 100%;
+}
+
+.card-2 {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: var(--branco);
+    margin: 1em;
+    padding: 1em;
+}
+
+.card-2__descrição {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    align-items: bottom;
+}
+
+.estrela {
+    margin: .5em 0;
+    width: 9%;
+}
+
+.descrição__titulo-2 {
+    color: var(--laranja);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.descrição__autora {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-right: .3em;
+}
+
+.descrição__texto-2 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 2em 0 0;
+    line-height: 25px;
+}
+
+.card__botões-2 {
+    display: flex;
+    justify-content: space-between;
+    height: 2.8em;
+    margin: 1.3em 0 1em 0;
+}
+
+.botões-2 {
+    display: flex;
+}
+
+.botões__ancora-2 {
+    background-color: var(--laranja);
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--branco);
+    padding: 1em 2.2em;
 }
 
