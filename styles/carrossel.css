@@ -26,7 +26,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     margin: 1em;
-    padding: 1em 1em;
+    padding: 1em;
 }
 
 .card__descrição {
@@ -184,4 +184,32 @@
         width: 40%;
         margin: 3em auto
     }
+}
+
+@media screen and (min-width: 1728px) {
+    .carrossel__container {
+        display: flex;
+        align-items: center;  
+        margin: 0 10vw 3em 10vw;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .descrição__titulo {
+        font-size: 32px;
+    }
+
+    .card {
+        width: 30%;
+        margin-top: 8em;
+    }
+
+  
+
 }
